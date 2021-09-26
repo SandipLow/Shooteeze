@@ -1,3 +1,3 @@
 # Shooteeze
 
-<Still in making kindly give some code suggetions>
+Still in making. Kindly give some code suggetions if you have.
