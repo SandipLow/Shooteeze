@@ -7,7 +7,7 @@ public class EnemyHealth : MonoBehaviour
     public ParticleSystem particleSystem;
     public int health;
     public GameObject removedPart;
-	public FireBullet FiringScript;
+    public FireBullet FiringScript;
 
     public void TakeDamage(int damage)
 	{
@@ -21,7 +21,7 @@ public class EnemyHealth : MonoBehaviour
 
 	void Die()
 	{
-        particleSystem.Play();
+                particleSystem.Play();
 		removedPart.SetActive(false);
 		FiringScript.enabled = false;
 	}
